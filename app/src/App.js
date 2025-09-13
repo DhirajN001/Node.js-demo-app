@@ -1,11 +1,15 @@
 import React from 'react';
+import Login from './Login';
 
 export default function App() {
   return (
-    <div style={{fontFamily:'Arial',padding:24}}>
-      <h1>AWS DevOps Engineer – Demo</h1>
+  function App() {
+  return (
+    <div className="App">
+      <h1>Welcome to DevOps Demo App</h1>
       <p>This is a minimal React app deployed via CI/CD to S3 + CloudFront.</p>
-      <p>Demo login: <b>hire-me@anshumat.org</b> / <b>HireMe@2025!</b></p>
+
+      <Login />  {/* Login component added here */}
     </div>
   );
 }
