@@ -29,3 +29,5 @@ Deploy a small React app using Terraform (S3 + CloudFront) and GitHub Actions fo
 
 ## Architecture diagram
 GitHub Actions → S3 → CloudFront → Users
+
+## END 
