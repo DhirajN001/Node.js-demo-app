@@ -45,7 +45,7 @@ export default function App() {
         </div>
         <button type="submit">Login</button>
       </form>
-      <p>Demo Account → Email: <b>hire-me@anshumat.org</b> | Password: <b>HireMe@2025!</b></p>
+
     </div>
   );
 }
